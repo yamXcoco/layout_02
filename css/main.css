@@ -1,1 +1,63 @@
-body { color: red;}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a {color: inherit;}
+
+body {
+    color: #111;   
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+.sub_text {
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+header {
+    background-color: #ccc;
+    padding: 40px;
+}
+
+header h2 {
+    text-align: center;
+}
+section {display: flex;}
+
+nav {
+    padding: 30px;
+    width: 30%;
+    background-color: #ddd;
+}
+article {
+    padding: 30px;
+    width: 70%;
+    background-color: #eee;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+
+
